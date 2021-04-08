@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form>
+		<label for="first">First Name:</label>
+		<input type="text" name="first" id="first" required="">
+		<label for="last">Last Name:</label>
+		<input type="text" name="last" id="last" required="">
+		<br>
+		<label>
+			Male
+			<input type="radio" name="gender">
+		</label>
+		<label>
+			Female
+			<input type="radio" name="gender">
+		</label>
+		<label>
+			Other
+			<input type="radio" name="gender">
+		</label>
+		<br>
+		<label for="email">email</label>
+		<input type="email" name="email" id="email" required="">
+		<label for="pwd">password</label>
+		<input type="password" name="pwd" id="pwd" required="" pattern=".{5,10}">
+		<br>
+		<label>
+			Birthday:
+			<input type="date" name="birthday">
+		</label>
+		<br>
+		<label for="terms">I agree to the term and condition</label>
+		<input type="checkbox" name="terms" id="terms"><br>
+		<input type="submit" name="submit">
+	</form>
+</body>
+</html>

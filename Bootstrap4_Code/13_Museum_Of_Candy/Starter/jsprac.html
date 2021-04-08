@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>js prac</title>
+        <style>
+            .bg-changer {
+                background: purple;
+            }
+        </style>
+    </head>
+    <body>
+        <button id="bg-chage">CLICK ME</button>
+
+        <script>
+            var button = document.querySelector("button");
+            var body = document.getElementsByTagName("body");
+            button.addEventListener('click', function (){
+                // e.preventDefault();
+                // document.body.style.background = "purple";
+                document.body.classList.toggle("bg-changer");
+            })
+        </script>
+    </body>
+</html>
